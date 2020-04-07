@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.navLink {
+    font-family: "Montserrat";
+    font-size: .85rem;
+    color: #424242;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    padding: 8px 10px;
+    cursor: pointer;
+    background: #fff;
+    width: 100%;
+    &:first-child {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100vw;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    margin: 0 0 40px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    display: block;
+    margin-top: 10px;
+    img {
+        width: 200px;
+    }
+}
